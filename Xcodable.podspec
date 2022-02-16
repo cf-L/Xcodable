@@ -27,6 +27,6 @@ Simplify Codable with PropertyWrapper
   s.source           = { :git => 'https://github.com/cf-L/Xcodable.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
-  s.source_files = 'Source/Xcodable/*'
+  s.source_files = 'Sources/**/*.swift'
   s.swift_version = '5.0'
 end
